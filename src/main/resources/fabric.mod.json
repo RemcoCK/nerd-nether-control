@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nerd_end_control",
+  "version": "${version}",
+  "name": "Nerd End Control",
+  "description": "Server-side End lock with console/OP commands and scheduled opening.",
+  "authors": ["Nerd Minecraft"],
+  "environment": "server",
+  "entrypoints": {
+    "main": ["nl.nerdminecraft.endcontrol.EndControlMod"]
+  },
+  "mixins": ["nerd_end_control.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": "*",
+    "minecraft": "26.3",
+    "java": ">=25"
+  }
+}

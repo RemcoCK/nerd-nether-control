@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "nl.nerdminecraft.endcontrol.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": ["EndPortalBlockMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
